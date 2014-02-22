@@ -1,6 +1,6 @@
 require 'formula'
 
-class Tmate < Formula
+class Lazybuilder < Formula
   homepage 'http://github.com/grahambrooks/lazybuilder'
   url 'https://github.com/grahambrooks/lazybuilder/archive/0.2.tar.gz'
   sha1 'e13f3fecf592e814ea18e4c8a5ee51c2dc072171'
