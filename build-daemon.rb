@@ -1,11 +1,11 @@
 require 'formula'
 
 class Tmate < Formula
-  homepage 'http://github.com/grahambrooks/build-daemon'
-  url 'https://github.com/grahambrooks/build-daemon/archive/0.1.tar.gz'
-  sha1 '9ec0eb583a6c570c4c848776c2483d56610f4c1e'
+  homepage 'http://github.com/grahambrooks/lazybuilder'
+  url 'https://github.com/grahambrooks/lazybuilder/archive/0.2.tar.gz'
+  sha1 'e13f3fecf592e814ea18e4c8a5ee51c2dc072171'
 
-  head 'https://github.com/grahambrooks/build-daemon.git'
+  head 'https://github.com/grahambrooks/lazybuilder.git'
 
   depends_on 'boost' => :build
 
@@ -14,6 +14,6 @@ class Tmate < Formula
   end
   
   def test
-    system "#{bin}/build-daemon", "-V"
+    system "#{bin}/lazybuilder", "-V"
   end
 end
